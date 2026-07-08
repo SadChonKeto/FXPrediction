@@ -2,7 +2,7 @@
 
 **Bachelor Thesis Project**  
 Author: Ketevan Machavariani  
-Institution: TBC Bank / University of Georgia  
+Institution: ISET
 Platform: Databricks (Azure), Runtime 15.4
 
 ---
