@@ -39,8 +39,10 @@ FXPRED/
 ├── .env.example              ← Template for API keys (FRED)
 ├── config.py                 ← All non-sensitive configuration
 ├── data/
-│   ├── raw/                  ← Output from scraping notebooks
-│   └── processed/            ← xgboost_monthly_data.csv (model input)
+│    ├── dt.zip
+│       ├── data/
+│           ├── raw/                  ← Output from scraping notebooks
+│           └── processed/            ← xgboost_monthly_data.csv (model input)
 ├── scraping/
 │   ├── 01_scrape_nbg         ← NBG exchange rates & monetary data
 │   ├── 02_scrape_lbma        ← Gold & silver prices (LBMA)
