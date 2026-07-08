@@ -89,7 +89,9 @@ os.environ["FRED_API_KEY"] = "your_key_here"
 Run notebooks in `scraping/` in order (01 through 05).  
 Alternatively, place `xgboost_monthly_data.csv` directly in `data/processed/`.
 
-### Step 4: Run modeling notebooks
+### Step 4: Unzip dt.zip
+
+### Step 5: Run modeling notebooks
 
 Each modeling notebook in `notebooks/` is self-contained.  
 Run `01_data_preparation` first, then any stage notebook:
