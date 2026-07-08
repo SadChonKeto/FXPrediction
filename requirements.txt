@@ -1,0 +1,35 @@
+# FXPRED - GEL/USD Exchange Rate Forecasting
+# Tested on Databricks Runtime 15.4 (Python 3.12)
+
+# Core
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.12.0
+
+# Machine Learning
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+
+# Deep Learning (Stage 1 - TSMixer)
+torch>=2.1.0
+
+# Statistical Models
+statsmodels>=0.14.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Data Scraping
+requests>=2.31.0
+yfinance>=0.2.36
+tqdm>=4.66.0
+
+# Hyperparameter Tuning
+hyperop>=0.2.7
+
+# Explainability
+shap>=0.44.0
+
+# Experiment Tracking (pre-installed on Databricks)
+# mlflow
